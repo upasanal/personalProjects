@@ -11,6 +11,9 @@
 		C7A4CC152BBF9491001F3BE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4CC142BBF9491001F3BE5 /* ContentView.swift */; };
 		C7A4CC172BBF9493001F3BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A4CC162BBF9493001F3BE5 /* Assets.xcassets */; };
 		C7A4CC1A2BBF9493001F3BE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A4CC192BBF9493001F3BE5 /* Preview Assets.xcassets */; };
+		C7A4CC212BBF96E9001F3BE5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4CC202BBF96E9001F3BE5 /* LoadingView.swift */; };
+		C7A4CC232BBF9DAB001F3BE5 /* EndLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4CC222BBF9DAA001F3BE5 /* EndLoadView.swift */; };
+		C7A4CC282BBFA6FE001F3BE5 /* Consolas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7A4CC272BBFA6FE001F3BE5 /* Consolas.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		C7A4CC142BBF9491001F3BE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7A4CC162BBF9493001F3BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A4CC192BBF9493001F3BE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7A4CC202BBF96E9001F3BE5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C7A4CC222BBF9DAA001F3BE5 /* EndLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndLoadView.swift; sourceTree = "<group>"; };
+		C7A4CC272BBFA6FE001F3BE5 /* Consolas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Consolas.ttf; sourceTree = "<group>"; };
+		C7A4CC292BBFA800001F3BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +58,14 @@
 		C7A4CC112BBF9491001F3BE5 /* coStar */ = {
 			isa = PBXGroup;
 			children = (
+				C7A4CC292BBFA800001F3BE5 /* Info.plist */,
+				C7A4CC242BBFA538001F3BE5 /* Font */,
 				C7A4CC122BBF9491001F3BE5 /* coStarApp.swift */,
 				C7A4CC142BBF9491001F3BE5 /* ContentView.swift */,
 				C7A4CC162BBF9493001F3BE5 /* Assets.xcassets */,
 				C7A4CC182BBF9493001F3BE5 /* Preview Content */,
+				C7A4CC202BBF96E9001F3BE5 /* LoadingView.swift */,
+				C7A4CC222BBF9DAA001F3BE5 /* EndLoadView.swift */,
 			);
 			path = coStar;
 			sourceTree = "<group>";
@@ -65,6 +76,14 @@
 				C7A4CC192BBF9493001F3BE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7A4CC242BBFA538001F3BE5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C7A4CC272BBFA6FE001F3BE5 /* Consolas.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A4CC282BBFA6FE001F3BE5 /* Consolas.ttf in Resources */,
 				C7A4CC1A2BBF9493001F3BE5 /* Preview Assets.xcassets in Resources */,
 				C7A4CC172BBF9493001F3BE5 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +159,8 @@
 			files = (
 				C7A4CC152BBF9491001F3BE5 /* ContentView.swift in Sources */,
 				C7A4CC132BBF9491001F3BE5 /* coStarApp.swift in Sources */,
+				C7A4CC232BBF9DAB001F3BE5 /* EndLoadView.swift in Sources */,
+				C7A4CC212BBF96E9001F3BE5 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +297,12 @@
 				DEVELOPMENT_TEAM = 7LPL7VLSCA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coStar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "\"\" UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,10 +328,12 @@
 				DEVELOPMENT_TEAM = 7LPL7VLSCA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coStar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "\"\" UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
