@@ -14,6 +14,15 @@
 		C7A4CC212BBF96E9001F3BE5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4CC202BBF96E9001F3BE5 /* LoadingView.swift */; };
 		C7A4CC232BBF9DAB001F3BE5 /* EndLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A4CC222BBF9DAA001F3BE5 /* EndLoadView.swift */; };
 		C7A4CC282BBFA6FE001F3BE5 /* Consolas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7A4CC272BBFA6FE001F3BE5 /* Consolas.ttf */; };
+		C7B7EBCD2BD5927900254A01 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7EBCC2BD5927900254A01 /* SearchBarView.swift */; };
+		C7B7EBCF2BD5A4EF00254A01 /* FriendAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B7EBCE2BD5A4EF00254A01 /* FriendAddView.swift */; };
+		C7CD64462BD4E02800EF296D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CD64452BD4E02800EF296D /* ProfileView.swift */; };
+		C7F706EC2BCF9E85008F7244 /* OPTIRomanaRoman-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7F706EB2BCF9E85008F7244 /* OPTIRomanaRoman-Normal.otf */; };
+		C7F706EE2BD1AEC4008F7244 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F706ED2BD1AEC4008F7244 /* FriendsView.swift */; };
+		C7F706F02BD1B28C008F7244 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F706EF2BD1B28C008F7244 /* ShopView.swift */; };
+		C7F706F22BD1B2BB008F7244 /* YouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F706F12BD1B2BB008F7244 /* YouView.swift */; };
+		C7F706F62BD1DC64008F7244 /* FemaleMaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F706F52BD1DC63008F7244 /* FemaleMaleView.swift */; };
+		C7F706F92BD1DFA8008F7244 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F706F82BD1DFA8008F7244 /* profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		C7A4CC222BBF9DAA001F3BE5 /* EndLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndLoadView.swift; sourceTree = "<group>"; };
 		C7A4CC272BBFA6FE001F3BE5 /* Consolas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Consolas.ttf; sourceTree = "<group>"; };
 		C7A4CC292BBFA800001F3BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C7B7EBCC2BD5927900254A01 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		C7B7EBCE2BD5A4EF00254A01 /* FriendAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAddView.swift; sourceTree = "<group>"; };
+		C7CD64452BD4E02800EF296D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C7F706EB2BCF9E85008F7244 /* OPTIRomanaRoman-Normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OPTIRomanaRoman-Normal.otf"; sourceTree = "<group>"; };
+		C7F706ED2BD1AEC4008F7244 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		C7F706EF2BD1B28C008F7244 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		C7F706F12BD1B2BB008F7244 /* YouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouView.swift; sourceTree = "<group>"; };
+		C7F706F52BD1DC63008F7244 /* FemaleMaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemaleMaleView.swift; sourceTree = "<group>"; };
+		C7F706F82BD1DFA8008F7244 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 		C7A4CC112BBF9491001F3BE5 /* coStar */ = {
 			isa = PBXGroup;
 			children = (
+				C7F706F72BD1DF8F008F7244 /* Model */,
 				C7A4CC292BBFA800001F3BE5 /* Info.plist */,
 				C7A4CC242BBFA538001F3BE5 /* Font */,
 				C7A4CC122BBF9491001F3BE5 /* coStarApp.swift */,
@@ -65,7 +84,14 @@
 				C7A4CC162BBF9493001F3BE5 /* Assets.xcassets */,
 				C7A4CC182BBF9493001F3BE5 /* Preview Content */,
 				C7A4CC202BBF96E9001F3BE5 /* LoadingView.swift */,
+				C7CD64452BD4E02800EF296D /* ProfileView.swift */,
 				C7A4CC222BBF9DAA001F3BE5 /* EndLoadView.swift */,
+				C7F706ED2BD1AEC4008F7244 /* FriendsView.swift */,
+				C7F706EF2BD1B28C008F7244 /* ShopView.swift */,
+				C7F706F12BD1B2BB008F7244 /* YouView.swift */,
+				C7F706F52BD1DC63008F7244 /* FemaleMaleView.swift */,
+				C7B7EBCC2BD5927900254A01 /* SearchBarView.swift */,
+				C7B7EBCE2BD5A4EF00254A01 /* FriendAddView.swift */,
 			);
 			path = coStar;
 			sourceTree = "<group>";
@@ -81,9 +107,18 @@
 		C7A4CC242BBFA538001F3BE5 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				C7F706EB2BCF9E85008F7244 /* OPTIRomanaRoman-Normal.otf */,
 				C7A4CC272BBFA6FE001F3BE5 /* Consolas.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		C7F706F72BD1DF8F008F7244 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7F706F82BD1DFA8008F7244 /* profile.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +181,7 @@
 			files = (
 				C7A4CC282BBFA6FE001F3BE5 /* Consolas.ttf in Resources */,
 				C7A4CC1A2BBF9493001F3BE5 /* Preview Assets.xcassets in Resources */,
+				C7F706EC2BCF9E85008F7244 /* OPTIRomanaRoman-Normal.otf in Resources */,
 				C7A4CC172BBF9493001F3BE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,10 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F706F92BD1DFA8008F7244 /* profile.swift in Sources */,
+				C7F706F02BD1B28C008F7244 /* ShopView.swift in Sources */,
+				C7CD64462BD4E02800EF296D /* ProfileView.swift in Sources */,
+				C7F706EE2BD1AEC4008F7244 /* FriendsView.swift in Sources */,
 				C7A4CC152BBF9491001F3BE5 /* ContentView.swift in Sources */,
+				C7F706F62BD1DC64008F7244 /* FemaleMaleView.swift in Sources */,
+				C7B7EBCF2BD5A4EF00254A01 /* FriendAddView.swift in Sources */,
 				C7A4CC132BBF9491001F3BE5 /* coStarApp.swift in Sources */,
+				C7B7EBCD2BD5927900254A01 /* SearchBarView.swift in Sources */,
 				C7A4CC232BBF9DAB001F3BE5 /* EndLoadView.swift in Sources */,
 				C7A4CC212BBF96E9001F3BE5 /* LoadingView.swift in Sources */,
+				C7F706F22BD1B2BB008F7244 /* YouView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
