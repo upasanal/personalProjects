@@ -15,8 +15,8 @@ struct SearchBarView: View {
         ZStack {
             Rectangle()
                 .fill(Color.white)
-                .frame(maxWidth: .infinity, maxHeight: 100)
-                .padding(.top, -40)// Adjust height as needed
+                .frame(maxWidth: .infinity, maxHeight: 200)
+                .padding(.top, -130)// Adjust height as needed
             
             VStack {
                 HStack {

@@ -77,13 +77,14 @@ struct YouView: View {
                     .padding(.top, 10)
                     
                     TabView(selection: $selectedTab) {
-                        ProfileView(profile: profile)
+                    
+                        UpdateyView()
                                             .tag(0)
-                                        SearchBarView()
+                                        ChartView()
                                             .tag(1)
-                        ProfileView(profile:profile)
+                        SavedView()
                                             .tag(2)
-                                       SearchBarView()
+                                       SettingView()
                                             .tag(3)
                                     }
                                     .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
