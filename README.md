@@ -6,4 +6,4 @@
 
 * Project 2: COVID Contagion Simulator
   - This was one of the projects worked on in my introductory course.
-  - It simulates the contagious spread of COVID-19. 
+  - It simulates the contagious spread of COVID-19 utilizing Python's Turtle library.
